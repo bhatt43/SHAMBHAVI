@@ -1,0 +1,5 @@
+t=(1,2,3,4,5)
+temp_list=list(t)
+temp_list.remove(3)
+new_tuple=tuple(temp_list)
+print(new_tuple)
